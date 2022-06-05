@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, rgb(255, 167, 35), rgb(255, 97, 35));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app-div {
+    background-color: rgb(252, 252, 253);
+    color: white;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px black;
+}
+
+.display-div {
+    background-color: black;
+    padding: 0.5rem;
+    font-size: 1.85rem;
+}
+
+.display-label {
+    font-size: 0.85rem;
+    color: lightblue;
+}
+
+form {
+    display: flex;
+    max-width: 10rem;
+}
+
+form button {
+    border: none;
+    background-color: white;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
